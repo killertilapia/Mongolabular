@@ -1,0 +1,22 @@
+<table class="table table-hover table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Contact Name</th>
+            <th>Cellphone</th>
+            <th>E-mail</th>
+            <th>Twitter</th>
+            <th>Blog/Website</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><input type="text"  ng-model="contact.name"/></td>
+            <td><input type="text"  ng-model="contact.cellphone"/></td>
+            <td><input type="text"  ng-model="contact.email"/></td>
+            <td><input type="text"  ng-model="contact.twitter"/></td>
+            <td><input type="text"  ng-model="contact.website"/></td>
+        </tr>
+    </tbody>
+</table>
+<a href="#" class="btn btn-primary" ng-click="update()">Update</a>
+<a href="/" class="btn btn-default">Cancel</a>

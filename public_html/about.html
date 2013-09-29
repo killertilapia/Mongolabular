@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html ng-app="AngularApp">
+    <head>
+        <title>AngularJS + MongoLab</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+
+        <base href="/">
+    </head>
+    <body>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Mongolabular</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/" target="_self">Home</a></li>
+                        <li class="active"><a href="about.html">About</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+
+        <div class="container" >
+            <div class="col-lg-8">
+                <div class="jumbotron">
+                    <img src="https://mongolab.com/base/img/mongolab-logo-250x65.png">
+                    <strong>+</strong>
+                    <img src="http://angularjs.org/img/AngularJS-large.png" height="65">
+                </div>
+                <p>A short AngularJS app with a Mongolab backend. I could have done this by just using
+                    a naked $ngResource adapter but I decided instead to use 
+                    <a href="https://github.com/pkozlowski-opensource/angularjs-mongolab">pkozlowski's mongoLab adapter</a>.
+                </p>
+                <p>
+                    You will need to get a Mongolab account to run this demo for the API key.
+                </p>
+                <p>
+                    I'm using Twitter-Bootstrap 3 for the webpage theme.
+                </p>
+                <p>Useful Links</p>
+                <ul>
+                    <li>
+                        <a href="https://mongolab.com/welcome/">Mongolab.com</a>
+                    </li>
+                    <li>
+                        <a href="http://angularjs.org/">AngularJS.org</a>
+                    </li>
+                    <li>
+                        <a href="https://support.mongolab.com/entries/24387816-Using-the-MongoLab-API-from-AngularJS">
+                            Mongolab support page talking about AngularJS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.mongodb.org/">Mongodb.org/</a>
+                    </li>
+                    <li>
+                        <a href="http://getbootstrap.com/">Twitter-Bootstrap 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular-resource.min.js"></script>
+        <script src="js/mongolab.js"></script>
+        <script src="js/myScript.js"></script>
+    </body>
+</html>
